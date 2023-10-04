@@ -2,4 +2,4 @@
 
 react & vite
 
-BELUM SELESAI!!
+BELUM SELESAI!! :)
