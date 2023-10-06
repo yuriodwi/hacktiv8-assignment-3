@@ -1,8 +1,8 @@
 import { Component } from "react";
-import Anime1 from "../img/experience/anime1.jpg";
-import Anime2 from "../img/experience/anime2.jpg";
-import Anime3 from "../img/experience/anime3.jpg";
-import Anime4 from "../img/experience/anime4.jpg";
+import Anime1 from "../img/experience/experience1.jpg";
+import Anime2 from "../img/experience/experience2.jpg";
+import Anime3 from "../img/experience/experience3.jpg";
+import Anime4 from "../img/experience/experience4.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
@@ -10,10 +10,9 @@ import { transition1 } from "../transition";
 class Experience extends Component {
   render() {
     return (
-      <motion.section className="section">
+      <section className="section">
         <div className="container mx-auto h-full relative">
-          {/* text & image wrapper */}
-          <div className="flex flex-row h-full items-center justify-start gap-x-10 text-right pt-24 ">
+          <div className="flex flex-row h-full w-full items-center justify-start gap-x-10 text-right pt-24 ">
             {/* text */}
             <motion.div
               initial={{ opacity: 0, y: "-30%" }}
@@ -77,7 +76,7 @@ class Experience extends Component {
             </motion.div>
           </div>
         </div>
-      </motion.section>
+      </section>
     );
   }
 }
