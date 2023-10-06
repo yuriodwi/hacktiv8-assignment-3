@@ -1,9 +1,15 @@
 import { Component } from "react";
-import { Navbar } from "./Config";
+import AnimRoutes from "./Components/AnimRoutes";
+import Header from "./Components/Header";
 
 class App extends Component {
   render() {
-    return <Navbar />;
+    return (
+      <div>
+        <Header />
+        <AnimRoutes />;
+      </div>
+    );
   }
 }
 

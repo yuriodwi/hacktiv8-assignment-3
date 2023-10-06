@@ -1,13 +1,13 @@
 import { Component } from "react";
 
-class Home extends Component {
+class Contact extends Component {
   render() {
     return (
       <div>
-        <p>ini adalah home page</p>
+        <p></p>
       </div>
     );
   }
 }
 
-export default Home;
+export default Contact;

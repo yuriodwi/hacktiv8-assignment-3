@@ -4,7 +4,7 @@ class Awards extends Component {
   render() {
     return (
       <div>
-        <p>ini adalah awards page</p>
+        <p></p>
       </div>
     );
   }

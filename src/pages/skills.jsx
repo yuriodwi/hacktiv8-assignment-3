@@ -4,7 +4,7 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        <p>ini adalah skills page</p>
+        <p></p>
       </div>
     );
   }
