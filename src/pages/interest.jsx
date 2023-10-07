@@ -1,5 +1,5 @@
 import { Component } from "react";
-import InterestVid from "../vid/interest/interestVid.mp4";
+import InterestVid from "../vid/interest/interest.mp4";
 import InterestImg from "../img/interest/interest.jpg";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
