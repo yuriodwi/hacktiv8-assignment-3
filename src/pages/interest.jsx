@@ -1,6 +1,6 @@
 import { Component } from "react";
-import InterestVid from "../vid/interest/interest.mp4";
 import InterestImg from "../img/interest/interest.jpg";
+import InterestImg2 from "../img/interest/interest2.jpg";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 class Interest extends Component {
@@ -17,20 +17,13 @@ class Interest extends Component {
                 transition={transition1}
                 className="max-w-[400px] h-[220px] overflow-hidden"
               >
-                <video
-                  src={InterestVid}
-                  controls
-                  autoPlay
-                  muted
-                  loop
-                  className="object-cover"
-                ></video>
+                <img src={InterestImg2} alt="" />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: "30%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={transition1}
-                className="flex flex-col w-1/3 items-start text-start justify-start w-[550px] "
+                className="flex flex-col items-start text-start w-[550px] "
               >
                 <h1 className="h3">
                   Photographer
@@ -56,7 +49,7 @@ class Interest extends Component {
                 initial={{ opacity: 0, x: "30%" }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={(transition1, { delay: 0.1 })}
-                className="flex flex-col w-1/3 items-start text-start justify-start w-[550px]"
+                className="flex flex-col items-start text-start justify-start w-[550px]"
               >
                 <h1 className="h3">Programmer</h1>
                 <p className="mb-10">

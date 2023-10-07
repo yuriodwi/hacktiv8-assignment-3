@@ -1,7 +1,6 @@
 import { Component } from "react";
 import { motion } from "framer-motion";
 import SkillsImg from "../img/skills/skills.jpg";
-import { Link } from "react-router-dom";
 import { transition1 } from "../transition";
 class Skills extends Component {
   render() {
@@ -33,9 +32,6 @@ class Skills extends Component {
                   dolor sit amet. Lorem ipsum dolor sit amet consectetur
                   adipisicing elit.
                 </p>
-                <Link to={"/contact"} className="btn overflow-hidden">
-                  hire me
-                </Link>
               </motion.div>
             </div>
 
