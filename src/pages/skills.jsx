@@ -10,7 +10,7 @@ class Skills extends Component {
         <div className="container mx-auto h-full relative">
           <div className="flex flex-col h-full justify-center items-center">
             {/* my skills */}
-            <div className="flex flex-row pt-32 items-center gap-x-10 justify-start text-start">
+            <div className="flex flex-row pt-24 items-center gap-x-10 justify-start text-start">
               <motion.div
                 initial={{ opacity: 0, x: "-50%" }}
                 animate={{ opacity: 1, x: 0 }}
@@ -59,7 +59,7 @@ class Skills extends Component {
               <motion.div
                 initial={{ opacity: 0, y: "50%" }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={(transition1, { delay: 0.2 })}
+                transition={(transition1, { delay: 0.1 })}
                 className="w-11/12"
               >
                 <div className="relative h-32">
@@ -74,7 +74,7 @@ class Skills extends Component {
               <motion.div
                 initial={{ opacity: 0, y: "50%" }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={(transition1, { delay: 0.4 })}
+                transition={(transition1, { delay: 0.2 })}
                 className="w-11/12"
               >
                 <div className="relative h-32">

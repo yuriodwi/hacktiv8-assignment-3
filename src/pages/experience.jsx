@@ -12,7 +12,7 @@ class Experience extends Component {
     return (
       <section className="section">
         <div className="container mx-auto h-full relative">
-          <div className="flex flex-row h-full w-full items-center justify-start gap-x-10 text-right pt-24 ">
+          <div className="flex flex-row h-full items-center justify-start gap-x-10 text-right pt-24 ">
             {/* text */}
             <motion.div
               initial={{ opacity: 0, y: "-30%" }}
@@ -38,42 +38,57 @@ class Experience extends Component {
               </Link>
             </motion.div>
             {/* image grid */}
-            <motion.div
-              initial={{ opacity: 0, y: "40%" }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={transition1}
-              className="grid grid-cols-2 gap-2"
-            >
+            <div className="grid grid-cols-2 gap-2">
               {/* image */}
-              <div className="max-w-[320px] h-[220px] bg-accent overflow-hidden">
+              <motion.div
+                initial={{ opacity: 0, y: "40%" }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={(transition1, { delay: 0.05 })}
+                className="max-w-[320px] h-[220px] bg-accent overflow-hidden"
+              >
                 <img
                   className="object-cover h-[220px] hover:scale-110 transition-all duration-500"
                   src={Anime1}
                   alt=""
                 />
-              </div>
-              <div className="max-w-[320px] h-[220px] bg-accent overflow-hidden">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: "40%" }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={(transition1, { delay: 0.1 })}
+                className="max-w-[320px] h-[220px] bg-accent overflow-hidden"
+              >
                 <img
                   className="object-cover h-[220px] hover:scale-110 transition-all duration-500"
                   src={Anime2}
                   alt=""
                 />
-              </div>
-              <div className="max-w-[320px] h-[220px] bg-accent overflow-hidden">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: "40%" }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={(transition1, { delay: 0.15 })}
+                className="max-w-[320px] h-[220px] bg-accent overflow-hidden"
+              >
                 <img
                   className="object-cover h-[220px] hover:scale-110 transition-all duration-500"
                   src={Anime3}
                   alt=""
                 />
-              </div>
-              <div className="max-w-[320px] h-[220px] bg-accent overflow-hidden">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: "40%" }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={(transition1, { delay: 0.2 })}
+                className="max-w-[320px] h-[220px] bg-accent overflow-hidden"
+              >
                 <img
                   className="object-cover h-[220px] hover:scale-110 transition-all duration-500"
                   src={Anime4}
                   alt=""
                 />
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>

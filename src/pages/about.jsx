@@ -8,13 +8,13 @@ class About extends Component {
   render() {
     return (
       <section className="section">
-        <div className="container mx-auto h-full relative">
-          <div className="flex flex-col h-full justify-between items-center absolute">
+        <div className="container mx-auto h-full relative overflow-hidden">
+          <div className="flex flex-col h-full justify-between items-center ">
             <motion.div
               initial={{ opacity: 0, y: "20%" }}
               animate={{ opacity: 1, y: 0 }}
               transition={transition1}
-              className="flex flex-row h-full items-center justify-center text-left pt-24 ml-12"
+              className="flex flex-row h-full items-center justify-center text-left pt-24 "
             >
               {/* image */}
               <motion.div
